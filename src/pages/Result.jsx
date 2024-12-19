@@ -4,8 +4,8 @@ function Result() {
 	const [token, setToken] = useState('')
 
 	useEffect(() => {
-		// const storedToken = localStorage.getItem('nekoTssel-PTO')
-		// setToken(storedToken)
+		const storedToken = localStorage.getItem('token')
+		setToken(storedToken)
 	}, [])
 
 	return <div >

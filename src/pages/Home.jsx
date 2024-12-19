@@ -15,8 +15,8 @@ function Home() {
 	 */
 	const handleUserData = (otplessUser) => {
 		// Replace the following code with your own logic
-		console.log(otplessUser)
-		alert(JSON.stringify(otplessUser));
+		console.log(otplessUser.idToken)
+		localStorage.setItem('token', otplessUser.idToken)
 		navigate('/result')
 	}
 
