@@ -11,7 +11,7 @@ export const initOTPless = (callback) => {
 		script.type = 'text/javascript'
 		script.src = 'https://otpless.com/v3/auth.js'
 		// TODO: Add your app id
-		script.setAttribute('data-appid', '4ULZ8ZIE096DPDSX64B0')
+		script.setAttribute('data-appid', 'Your_app_id')
 		document.head.appendChild(script)
 	}
 
